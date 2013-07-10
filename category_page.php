@@ -11,11 +11,11 @@
 <!--
 Design by Free CSS Templates
 http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
+Released for free under a Creative Commons Attribution 3.0 License
 
 Name       : PavementCafe renamed to PebblestoneCafe
 Description: A two-column, responsive theme
-Version    : 2.5
+Version    : 3.0
 Released   : 20130709
 
 -->

@@ -139,6 +139,7 @@ a:hover {
 	position: fixed;
 	top: 0px;
 	z-index: 999;
+	text-align: center;
 }
 #menu {
 	height: 52px;
@@ -150,7 +151,7 @@ a:hover {
 	list-style: none;
 	line-height: normal;
 	text-align: center;
-	display: inline-table;
+	display: inline-block;
 }
 	#menu ul:after {
 		content: ""; clear: both; display: block;

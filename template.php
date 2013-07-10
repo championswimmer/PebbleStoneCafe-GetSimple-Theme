@@ -15,8 +15,8 @@ Released for free under a Creative Commons Attribution 3.0 License
 
 Name       : PavementCafe renamed to PebblestoneCafe
 Description: A two-column, responsive theme
-Version    : 3.0
-Released   : 20130709
+Version    : 3.1
+Released   : 20130711
 
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">

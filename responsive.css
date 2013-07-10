@@ -4,17 +4,34 @@
  * And further adapted into PebblestoneCafe				*
  *									*
  ************************************************************************/
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1281px) {
 	#sidebar.noscroll {
+		width:300px;
 		float:right;
 		position: fixed;
 		top: 80px;
 		right: 0px;
-		margin-right: 20px;
+		margin-right: 10px;
 		z-index: 10000;
 	}
-
 }
+@media only screen and (min-device-width: 1500px) {
+	#sidebar.noscroll {
+		width:300px;
+		float:right;
+		position: fixed;
+		top: 80px;
+		right: 0px;
+		margin-right: 10px;
+		z-index: 10000;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	#sidebar.noscroll {
+	}
+}
+
 @media only screen and (max-device-width: 1280px) {
 	body {
 	display:inline-block;
@@ -33,6 +50,7 @@
 	height: 320px;
 	width: 1080px;
 	word-wrap: break-word;
+	margin-top: 55px;
 	}
 	#logo p {
 	margin-top: -20px;
@@ -53,6 +71,11 @@
 	background: url(images/img02.jpg) repeat;
 	text-align: center;
 	padding: 0px 0px 0px 0px;
+	display:inline-block;
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+	text-align: center;
 	}
 	#page {
 	width: 1040px;
@@ -65,25 +88,16 @@
 	}
 
 	#sidebar {
-	float: right, top;
-	width: 980px;
+	float: none;
+	width: 700px;
 	margin: 0px;
 	padding: 10px 10px 10px 10px;
 	color: black;
 	text-align: left;
 	}
-@media only screen and (min-width: 1024px) {
-	#sidebar.noscroll {
-		float:right;
-		position: fixed;
-		top: 80px;
-		right: 0px;
-		margin-right: 20px;
-		z-index: 10000;
-	}
 	#footer {
 	height: 70px;
-	width: 1080px;
+	width: 760px;
 	margin: 0 auto;
 	padding: 20px 0px 0px 0px;
 	background: url(images/img01.jpg) repeat;
@@ -101,18 +115,33 @@
 	}	
 	#content {
 	float: none;
+	width:800px
 	padding: 10px 10px 10px 10px;
+	}
+	#menu-wrapper {
+	height: 53px;
+	width: 1080px;
+	background: url(images/img02.jpg) repeat;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	display:inline-block;
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+	text-align: center;
 	}
 	#sidebar {
 	float: none;
-	width: 960px;
+	width: 700px;
 	margin: 0px;
 	padding: 10px 10px 10px 10px;
 	color: black;
 	text-align: left;
 	}
-}
+	#sidebar.noscroll {
+	}
 
+}
 @media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
 	body {
 	display:inline-block;
@@ -131,6 +160,7 @@
 	height: 320px;
 	width: 720px;
 	word-wrap: break-word;
+	margin-top: 55px;
 	}
 	#logo p {
 	margin-top: -20px;
@@ -147,10 +177,11 @@
 	}
 	#menu-wrapper {
 	height: 53px;
-	width: 720px;
+	width: 710px;
 	background: url(images/img02.jpg) repeat;
 	text-align: center;
 	padding: 5px 5px 5px 5px;
+	display:inline-block;
 	}
 	#page {
 	width: 700px;
@@ -163,12 +194,15 @@
 
 	#sidebar {
 	float: none;
-	width: 640px;
+	width: 610px;
 	margin: 0px;
 	padding: 10px 10px 10px 10px;
 	color: black;
 	text-align: left;
 	}
+	#sidebar.noscroll {
+	}
+
 	#footer {
 	height: 70px;
 	width: 720px;
@@ -210,6 +244,7 @@
 	height: 280px;
 	width: 480px;
 	word-wrap: break-word;
+	margin-top: 55px;
 	}
 	#logo p {
 	margin-top: -20px;
@@ -231,6 +266,7 @@
 	background: url(images/img02.jpg) repeat;
 	text-align: center;
 	padding: 0px 0px 0px 0px;
+	display:inline-block;
 	}
 	#page {
 	width: 440px;
@@ -255,6 +291,9 @@
 	color: black;
 	text-align: left;
 	}
+	#sidebar.noscroll {
+	}
+
 	#footer {
 	height: 70px;
 	width: 480px;

@@ -3,7 +3,7 @@
 *
 * @File: 		category_page.php
 * @Package:		GetSimple
-* @Action:		Theme by Free CSS Templates for GetSimple adapted by Jose Arrona - SS
+* @Action:		Theme by Free CSS Templates for GetSimple adapted by Arnav Gupta
 *
 *****************************************************/
 ?>
@@ -13,10 +13,10 @@ Design by Free CSS Templates
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 
-Name       : TrendyBiz renamed Cafe for GS tutorial
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20120818
+Name       : PavementCafe renamed to PebblestoneCafe
+Description: A two-column, responsive theme
+Version    : 2.0
+Released   : 20130709
 
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">

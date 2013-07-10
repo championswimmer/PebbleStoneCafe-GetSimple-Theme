@@ -1,3 +1,11 @@
+/************************************************************************
+ * Responsive magic added by Arnav Gupta <dev@championswimmer.in>	*
+ * Originally theme TrendyBiz, adapted into PavementCafe		*
+ * And further adapted into PebblestoneCafe				*
+ *									*
+ ************************************************************************/
+
+
 @media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
 	ul li { width: 120px; }
 	body {

@@ -1,0 +1,271 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Adapted for use with Get-Simple CMS by Jose Arrona.
+And further adapted for a GetSimple tutorial by Timbow
+*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #690000 url(images/img05.jpg) repeat;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #7D7764;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #731F1F;
+}
+
+a:hover {
+}
+
+#wrapper {
+	background: #FFFFFF url(images/img05.jpg) repeat;
+	-moz-box-shadow: 0 0 20px 0px #B3B3B3;
+	-webkit-box-shadow: 0 0 20px 0px #B3B3B3;
+	box-shadow: 0 0 20px 0px #B3B3B3;
+}
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+/* Logo */
+
+#logo {
+	height: 250px;
+}
+
+#logo h1, #logo p {
+	text-align: center;
+}
+
+#logo h1 {
+	padding: 50px 0px 0px 0px;
+	letter-spacing: -6px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 100px;
+}
+
+#logo p {
+	margin-top: -20px;
+	padding: 0px 0px 0px 5px;
+	letter-spacing: -2px;
+	font-size: 30px;
+	color: #696969;
+}
+
+#logo p a {
+	color: #696969;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #731F1F;
+}
+
+/* Menu */
+
+#menu-wrapper {
+	height: 53px;
+	width: 1000px;
+	background: url(images/img02.jpg) repeat;
+}
+
+#menu {
+	height: 52px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 30px;
+	background: url(images/img10.png) no-repeat right 50%;
+	line-height: 52px;
+	text-decoration: none;
+	text-transform: lowercase;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 300;
+	color: #4C4C4C;
+	border: none;
+}
+
+#menu a:hover, #menu .current a {
+	text-decoration: none;
+	color: #4C4C4C;
+}
+
+#menu .current a {
+	font-weight: bold;
+}
+
+/* Page */
+
+#page {
+	width: 960px;
+	padding: 20px 20px 40px 20px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 620px;
+	padding: 0px 0px 0px 0px;
+}
+
+.post .title {
+	padding: 0px 0px 30px 0px;
+	letter-spacing: -3px;
+}
+
+.post .title a {
+	border: none;
+	text-transform: lowercase;
+	color: #7D7764;
+}
+
+.post .meta {
+	margin-bottom: 30px;
+	padding: 0px;
+	text-align: left;
+	font-size: 16px;
+}
+
+.post .meta .date {
+	float: left;
+}
+
+.post .meta .posted {
+	float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 300px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	color: black;
+	text-align: center;
+}
+
+#sidebar h2 {
+	padding: 0px 0px 0px 0px;
+	letter-spacing: -3px;
+}
+
+#sidebar a {
+	border: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+
+/* Footer */
+
+#footer {
+	height: 100px;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 50px 0px 0px 0px;
+	background: url(images/img01.jpg) repeat;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 10px;
+	line-height: normal;
+	text-align: center;
+	color: #C59C9C;
+}
+
+#footer a {
+	color: #C59C9C;
+}
+
+
+
+.list-style1 {
+	margin: 40px 0;
+	padding: 0px;
+	list-style: none;
+}
+
+.list-style1 li {
+	padding: 7px 0px 7px 0px;
+	border-bottom: 1px dashed grey;
+}
+
+.list-style1 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+.divider {
+	height: 50px;
+	background: url(images/img04.png) no-repeat center top;
+}

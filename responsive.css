@@ -4,14 +4,26 @@
  * And further adapted into PebblestoneCafe				*
  *									*
  ************************************************************************/
+@media only screen and (min-width: 1024px) {
+	#sidebar.noscroll {
+		float:right;
+		position: fixed;
+		top: 80px;
+		right: 0px;
+		margin-right: 20px;
+		z-index: 10000;
+	}
+
+}
 @media only screen and (max-device-width: 1280px) {
 	body {
 	display:inline-block;
-	background: #003569 url(images/img05.jpg) repeat;
+	background: #003569 url(images/pebblestone.jpg) repeat;
 	font-family: 'Neucha', 'Coming Soon', sans-serif;
 	font-size: 16px;
 	color: black;
 	width: 100%;
+	background-attachment:fixed;
 	}
 	.container {
 	width: 1080px;
@@ -54,28 +66,38 @@
 
 	#sidebar {
 	float: right, top;
-	width: 300px;
+	width: 980px;
 	margin: 0px;
-	padding: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
 	color: black;
-	text-align: center;
+	text-align: left;
+	}
+@media only screen and (min-width: 1024px) {
+	#sidebar.noscroll {
+		float:right;
+		position: fixed;
+		top: 80px;
+		right: 0px;
+		margin-right: 20px;
+		z-index: 10000;
 	}
 	#footer {
-	height: 100px;
+	height: 70px;
 	width: 1080px;
 	margin: 0 auto;
-	padding: 50px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
 	background: url(images/img01.jpg) repeat;
 	}
 }
 @media  only screen and (max-device-width: 1080px) {
 	body {
 	display:inline-block;
-	background: #003569 url(images/img05.jpg) repeat;
+	background: #003569 url(images/pebblestone.jpg) repeat;
 	font-family: 'Neucha', 'Coming Soon', sans-serif;
 	font-size: 16px;
 	color: black;
 	width: 100%;
+	background-attachment:fixed;
 	}	
 	#content {
 	float: none;
@@ -83,22 +105,23 @@
 	}
 	#sidebar {
 	float: none;
-	width: 300px;
+	width: 960px;
 	margin: 0px;
-	padding: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
 	color: black;
-	text-align: center;
+	text-align: left;
 	}
 }
 
 @media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
 	body {
 	display:inline-block;
-	background: #003569 url(images/img05.jpg) repeat;
+	background: #003569 url(images/pebblestone.jpg) repeat;
 	font-family: 'Neucha', 'Coming Soon', sans-serif;
 	font-size: 16px;
 	color: black;
 	width: 100%;
+	background-attachment:fixed;
 	}
 	.container {
 	width: 720px;
@@ -140,28 +163,29 @@
 
 	#sidebar {
 	float: none;
-	width: 300px;
+	width: 640px;
 	margin: 0px;
-	padding: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
 	color: black;
-	text-align: center;
+	text-align: left;
 	}
 	#footer {
-	height: 100px;
+	height: 70px;
 	width: 720px;
 	margin: 0 auto;
-	padding: 50px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
 	background: url(images/img01.jpg) repeat;
 	}
 }
 @media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
 	body {
 	display:inline-block;
-	background: #003569 url(images/img05.jpg) repeat;
+	background: #003569 url(images/pebblestone.jpg) repeat;
 	font-family: 'Neucha', 'Coming Soon', sans-serif;
 	font-size: 16px;
 	color: black;
 	width: 100%;
+	background-attachment:fixed;
 	}	
 	#content {
 	float: none;
@@ -171,11 +195,12 @@
 @media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
 	body {
 	display:inline-block;
-	background: #003569 url(images/img05.jpg) repeat;
+	background: #003569 url(images/pebblestone.jpg) repeat;
 	font-family: 'Neucha', 'Coming Soon', sans-serif;
 	font-size: 16px;
 	color: black;
 	width: 100%;
+	background-attachment:fixed;
 	}
 	.container {
 	width: 480px;
@@ -224,28 +249,29 @@
 
 	#sidebar {
 	float: none;
-	width: 300px;
+	width: 400px;
 	margin: 0px;
-	padding: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
 	color: black;
-	text-align: center;
+	text-align: left;
 	}
 	#footer {
-	height: 100px;
+	height: 70px;
 	width: 480px;
 	margin: 0 auto;
-	padding: 50px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
 	background: url(images/img01.jpg) repeat;
 	}
 }
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
 	body {
 	display:inline-block;
-	background: #003569 url(images/img05.jpg) repeat;
+	background: #003569 url(images/pebblestone.jpg) repeat;
 	font-family: 'Neucha', 'Coming Soon', sans-serif;
 	font-size: 16px;
 	color: black;
 	width: 100%;
+	background-attachment:fixed;
 	}
 		
 	#content {

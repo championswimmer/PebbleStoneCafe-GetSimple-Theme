@@ -26,14 +26,14 @@ Released   : 20130709
 <title><?php get_page_clean_title(); ?> - <?php get_site_name(); ?></title>
 <link href="<?php get_theme_url(); ?>/style.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="<?php get_theme_url(); ?>/responsive.css" rel="stylesheet" type="text/css" media="screen" />
-
+<script src="<?php get_theme_url(); ?>/js/jquery-1.3.2.min.js"></script>
 </head>
 <body>
 <div id="wrapper" class="container">
 	<div id="menu-wrapper">
 		<div id="menu" class="container">
 			<ul>
-				<?php get_navigation(return_page_slug()); ?>
+				<?php get_nested_navigation(return_page_slug()); ?>
 			</ul>
 		</div>
 	</div>
@@ -67,6 +67,22 @@ Released   : 20130709
 	</div>
 	<!-- end #page -->
 	<div class="divider">&nbsp;</div>
+<script>
+function sidebar_noscroll() {
+  var window_top = $(window).scrollTop();
+  var div_top = $('#page').offset().top;
+  if ((window_top + 30) > div_top) {
+    $('#sidebar').addClass('noscroll');
+  } else {
+    $('#sidebar').removeClass('noscroll');
+  }
+}
+
+$(function() {
+  $(window).scroll(sidebar_noscroll);
+  sidebar_noscroll();
+});
+</script>
 
 <div id="footer">
 	<p>Copyright &copy; <?php echo date('Y'); ?> <?php get_site_name(); ?>.

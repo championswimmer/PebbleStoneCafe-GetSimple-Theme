@@ -26,6 +26,7 @@ Released   : 20120818
 <title><?php get_page_clean_title(); ?> - <?php get_site_name(); ?></title>
 <link href="http://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans+Condensed:300" rel="stylesheet" type="text/css" />
 <link href="<?php get_theme_url(); ?>/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="<?php get_theme_url(); ?>/responsive.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
 <div id="wrapper" class="container">

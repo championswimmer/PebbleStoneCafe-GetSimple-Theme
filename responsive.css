@@ -1,0 +1,64 @@
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
+	ul li { width: 120px; }
+	body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background: #690000 url(images/img05.jpg) repeat;
+	font-family: 'Neucha', sans-serif;
+	font-size: 16px;
+	color: black;
+	width: 480px;
+	}
+	.container {
+	width: 480px;
+	margin: 0px auto;
+	}
+	#logo {
+	height: 280px;
+	width: 480px;
+	word-wrap: break-word;
+	}
+	#logo h1 {
+	padding: 5px 5px 5px 5px;
+	letter-spacing: -6px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 72px;
+	}
+
+
+	#wrapper.container {
+	width: 480px;
+	margin: 0px auto;
+	}
+	#footer {
+	height: 100px;
+	width: 480px;
+	margin: 0 auto;
+	padding: 50px 0px 0px 0px;
+	background: url(images/img01.jpg) repeat;
+	}
+	#menu-wrapper {
+	height: 53px;
+	width: 480px;
+	background: url(images/img02.jpg) repeat;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	}
+	#page {
+	width: 480px;
+	padding: 20px 20px 40px 20px;
+	}
+	#content {
+	float: none;
+	width: 400px;
+	padding: 0px 0px 0px 0px;
+	}
+	#sidebar {
+	float: none;
+	width: 300px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	color: black;
+	text-align: center;
+	}
+}

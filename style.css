@@ -37,10 +37,11 @@ And further adapted to make responsive by Arnav Gupta <dev@championswimmer.in>
 body {
 	margin: 0;
 	padding: 0;
-	background: #003569 url(images/img05.jpg) repeat;
+	background: #003569 url(images/pebblestone.jpg) repeat;
 	font-family: 'Neucha', sans-serif;
 	font-size: 16px;
 	color: black;
+	background-attachment:fixed;
 }
 
 h1, h2, h3 {
@@ -80,6 +81,8 @@ a:hover {
 
 #wrapper {
 	background: #FFFFFF url(images/img05.jpg) repeat;
+	opacity:0.9;
+	filter:alpha(opacity=90);
 	-moz-box-shadow: 0 0 20px 0px #B3B3B3;
 	-webkit-box-shadow: 0 0 20px 0px #B3B3B3;
 	box-shadow: 0 0 20px 0px #B3B3B3;
@@ -133,6 +136,9 @@ a:hover {
 	height: 53px;
 	width: 1000px;
 	background: url(images/img02.jpg) repeat;
+	position: fixed;
+	top: 0px;
+	z-index: 999;
 }
 
 #menu {
@@ -154,7 +160,6 @@ a:hover {
 #menu a {
 	display: block;
 	padding: 0px 30px;
-	background: url(images/img10.png) no-repeat right 50%;
 	line-height: 52px;
 	text-decoration: none;
 	text-transform: lowercase;
@@ -255,10 +260,10 @@ a:hover {
 /* Footer */
 
 #footer {
-	height: 100px;
+	height: 70px;
 	width: 1000px;
 	margin: 0 auto;
-	padding: 50px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
 	background: url(images/img01.jpg) repeat;
 }
 

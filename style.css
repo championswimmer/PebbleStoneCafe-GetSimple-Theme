@@ -6,13 +6,38 @@ Released for free under a Creative Commons Attribution 2.5 License
 Adapted for use with Get-Simple CMS by Jose Arrona.
 And further adapted for a GetSimple tutorial by Timbow
 */
+@font-face {
+  font-family: 'Bad Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bad Script Regular'), local('BadScript-Regular'), url(http://themes.googleusercontent.com/static/fonts/badscript/v2/rL_b2ND61EQmMOJ8CRr1fhsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Neucha';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Neucha'), url(http://themes.googleusercontent.com/static/fonts/neucha/v4/Z14xx5NkAnXABtaPytVZVA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Patrick Hand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Patrick Hand'), local('PatrickHand-Regular'), url(http://themes.googleusercontent.com/static/fonts/patrickhand/v7/9BG3JJgt_HlF3NpEUehL0Ba1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Sue Ellen Francisco';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sue Ellen Francisco '), local('SueEllenFrancisco'), url(http://themes.googleusercontent.com/static/fonts/sueellenfrancisco/v4/TwHX4vSxMUnJUdEz1JIgrrtXaZAN_aGv07JTA91X2HI.woff) format('woff');
+}
+
 
 
 body {
 	margin: 0;
 	padding: 0;
 	background: #690000 url(images/img05.jpg) repeat;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Neucha', sans-serif;
 	font-size: 16px;
 	color: black;
 }
@@ -21,7 +46,7 @@ h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 	font-weight: normal;
-	color: #7D7764;
+	color: #646a7d;
 }
 
 h1 {
@@ -46,7 +71,7 @@ ul, ol {
 
 a {
 	text-decoration: none;
-	color: #731F1F;
+	color: #283c57;
 }
 
 a:hover {
@@ -97,7 +122,7 @@ a:hover {
 	border: none;
 	background: none;
 	text-decoration: none;
-	color: #731F1F;
+	color: #283c57;
 }
 
 /* Menu */
@@ -171,7 +196,7 @@ a:hover {
 .post .title a {
 	border: none;
 	text-transform: lowercase;
-	color: #7D7764;
+	color: #6b647d;
 }
 
 .post .meta {
@@ -240,11 +265,11 @@ a:hover {
 	padding-top: 10px;
 	line-height: normal;
 	text-align: center;
-	color: #C59C9C;
+	color: #9cb1c5;
 }
 
 #footer a {
-	color: #C59C9C;
+	color: #9cb1c5;
 }
 
 
@@ -269,3 +294,4 @@ a:hover {
 	height: 50px;
 	background: url(images/img04.png) no-repeat center top;
 }
+

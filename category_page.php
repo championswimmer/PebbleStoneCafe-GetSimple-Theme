@@ -24,7 +24,6 @@ Released   : 20130709
 <?php get_header(); ?>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title><?php get_page_clean_title(); ?> - <?php get_site_name(); ?></title>
-<link href="http://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans+Condensed:300" rel="stylesheet" type="text/css" />
 <link href="<?php get_theme_url(); ?>/style.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="<?php get_theme_url(); ?>/responsive.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
@@ -66,7 +65,8 @@ Released   : 20130709
 	<div class="divider">&nbsp;</div>
 
 <div id="footer">
-	<p>Copyright &copy; <?php echo date('Y'); ?> <?php get_site_name(); ?>. <?php get_site_credits(); ?></p>
+	<p>Copyright &copy; <?php echo date('Y'); ?> <?php get_site_name(); ?>.
+	<br> Powered by PebblestoneCafe for GetSimple by Arnav Gupta</p>
 </div>
 </div>
 <!-- end #footer -->

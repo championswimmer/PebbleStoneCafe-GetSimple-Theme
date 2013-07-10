@@ -4,18 +4,178 @@
  * And further adapted into PebblestoneCafe				*
  *									*
  ************************************************************************/
-
-
-@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
-	ul li { width: 120px; }
+@media only screen and (max-device-width: 1280px) {
 	body {
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	background: #690000 url(images/img05.jpg) repeat;
-	font-family: 'Neucha', sans-serif;
+	display:inline-block;
+	background: #003569 url(images/img05.jpg) repeat;
+	font-family: 'Neucha', 'Coming Soon', sans-serif;
 	font-size: 16px;
 	color: black;
-	width: 480px;
+	width: 100%;
+	}
+	.container {
+	width: 1080px;
+	margin: 0px auto;
+	}
+	#logo {
+	height: 320px;
+	width: 1080px;
+	word-wrap: break-word;
+	}
+	#logo p {
+	margin-top: -20px;
+	padding: 10px 15px 10px 15px;
+	font-size: 36px;
+	color: #696969;
+	}
+
+	#logo h1 {
+	padding: 10px 10px 10px 10px;
+	letter-spacing: -4px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 92px;
+	}
+	#menu-wrapper {
+	height: 53px;
+	width: 1080px;
+	background: url(images/img02.jpg) repeat;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	}
+	#page {
+	width: 1040px;
+	padding: 20px 20px 40px 20px;
+	}
+	#content {
+	float: left;
+	width: 700px;
+	padding: 10px 10px 10px 10px;
+	}
+
+	#sidebar {
+	float: right, top;
+	width: 300px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	color: black;
+	text-align: center;
+	}
+	#footer {
+	height: 100px;
+	width: 1080px;
+	margin: 0 auto;
+	padding: 50px 0px 0px 0px;
+	background: url(images/img01.jpg) repeat;
+	}
+}
+@media  only screen and (max-device-width: 1080px) {
+	body {
+	display:inline-block;
+	background: #003569 url(images/img05.jpg) repeat;
+	font-family: 'Neucha', 'Coming Soon', sans-serif;
+	font-size: 16px;
+	color: black;
+	width: 100%;
+	}	
+	#content {
+	float: none;
+	padding: 10px 10px 10px 10px;
+	}
+	#sidebar {
+	float: none;
+	width: 300px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	color: black;
+	text-align: center;
+	}
+}
+
+@media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
+	body {
+	display:inline-block;
+	background: #003569 url(images/img05.jpg) repeat;
+	font-family: 'Neucha', 'Coming Soon', sans-serif;
+	font-size: 16px;
+	color: black;
+	width: 100%;
+	}
+	.container {
+	width: 720px;
+	margin: 0px auto;
+	}
+	#logo {
+	height: 320px;
+	width: 720px;
+	word-wrap: break-word;
+	}
+	#logo p {
+	margin-top: -20px;
+	padding: 5px 10px 5px 10px;
+	font-size: 36px;
+	color: #696969;
+	}
+
+	#logo h1 {
+	padding: 5px 5px 5px 5px;
+	letter-spacing: -6px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 86px;
+	}
+	#menu-wrapper {
+	height: 53px;
+	width: 720px;
+	background: url(images/img02.jpg) repeat;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	}
+	#page {
+	width: 700px;
+	padding: 15px 15px 30px 15px;
+	}
+	#content {
+	float: none;
+	padding: 0px 0px 0px 0px;
+	}
+
+	#sidebar {
+	float: none;
+	width: 300px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	color: black;
+	text-align: center;
+	}
+	#footer {
+	height: 100px;
+	width: 720px;
+	margin: 0 auto;
+	padding: 50px 0px 0px 0px;
+	background: url(images/img01.jpg) repeat;
+	}
+}
+@media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
+	body {
+	display:inline-block;
+	background: #003569 url(images/img05.jpg) repeat;
+	font-family: 'Neucha', 'Coming Soon', sans-serif;
+	font-size: 16px;
+	color: black;
+	width: 100%;
+	}	
+	#content {
+	float: none;
+	padding: 0px 0px 0px 0px;
+	}
+}
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
+	body {
+	display:inline-block;
+	background: #003569 url(images/img05.jpg) repeat;
+	font-family: 'Neucha', 'Coming Soon', sans-serif;
+	font-size: 16px;
+	color: black;
+	width: 100%;
 	}
 	.container {
 	width: 480px;
@@ -26,24 +186,19 @@
 	width: 480px;
 	word-wrap: break-word;
 	}
+	#logo p {
+	margin-top: -20px;
+	padding: 0px 5px 0px 5px;
+	letter-spacing: -2px;
+	font-size: 30px;
+	color: #696969;
+	}
+
 	#logo h1 {
 	padding: 5px 5px 5px 5px;
 	letter-spacing: -6px;
 	font-family: 'Dancing Script', cursive;
 	font-size: 72px;
-	}
-
-
-	#wrapper.container {
-	width: 480px;
-	margin: 0px auto;
-	}
-	#footer {
-	height: 100px;
-	width: 480px;
-	margin: 0 auto;
-	padding: 50px 0px 0px 0px;
-	background: url(images/img01.jpg) repeat;
 	}
 	#menu-wrapper {
 	height: 53px;
@@ -53,14 +208,20 @@
 	padding: 0px 0px 0px 0px;
 	}
 	#page {
-	width: 480px;
-	padding: 20px 20px 40px 20px;
+	width: 440px;
+	padding: 10px 10px 20px 10px;
 	}
 	#content {
 	float: none;
 	width: 400px;
 	padding: 0px 0px 0px 0px;
 	}
+	.post .entry {
+	padding: 0px 0px 0px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+	}
+
 	#sidebar {
 	float: none;
 	width: 300px;
@@ -68,5 +229,28 @@
 	padding: 0px 0px 0px 0px;
 	color: black;
 	text-align: center;
+	}
+	#footer {
+	height: 100px;
+	width: 480px;
+	margin: 0 auto;
+	padding: 50px 0px 0px 0px;
+	background: url(images/img01.jpg) repeat;
+	}
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+	body {
+	display:inline-block;
+	background: #003569 url(images/img05.jpg) repeat;
+	font-family: 'Neucha', 'Coming Soon', sans-serif;
+	font-size: 16px;
+	color: black;
+	width: 100%;
+	}
+		
+	#content {
+	float: none;
+	width: 420px;
+	padding: 0px 0px 0px 0px;
 	}
 }

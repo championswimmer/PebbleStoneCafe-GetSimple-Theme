@@ -8,10 +8,10 @@ And further adapted for a GetSimple tutorial by Timbow
 And further adapted to make responsive by Arnav Gupta <dev@championswimmer.in>
 */
 @font-face {
-  font-family: 'Bad Script';
+  font-family: 'Coming Soon';
   font-style: normal;
   font-weight: 400;
-  src: local('Bad Script Regular'), local('BadScript-Regular'), url(http://themes.googleusercontent.com/static/fonts/badscript/v2/rL_b2ND61EQmMOJ8CRr1fhsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+  src: local('Coming Soon'), local('ComingSoon'), url(http://themes.googleusercontent.com/static/fonts/comingsoon/v3/myblyOycMnPMGjfPG-DzP4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
 }
 @font-face {
   font-family: 'Neucha';
@@ -20,16 +20,16 @@ And further adapted to make responsive by Arnav Gupta <dev@championswimmer.in>
   src: local('Neucha'), url(http://themes.googleusercontent.com/static/fonts/neucha/v4/Z14xx5NkAnXABtaPytVZVA.woff) format('woff');
 }
 @font-face {
-  font-family: 'Patrick Hand';
+  font-family: 'Dancing Script';
   font-style: normal;
   font-weight: 400;
-  src: local('Patrick Hand'), local('PatrickHand-Regular'), url(http://themes.googleusercontent.com/static/fonts/patrickhand/v7/9BG3JJgt_HlF3NpEUehL0Ba1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+  src: local('Dancing Script'), local('DancingScript'), url(http://themes.googleusercontent.com/static/fonts/dancingscript/v3/DK0eTGXiZjN6yA8zAEyM2VhlQWQpSCpzb2Peu3I-Q34.woff) format('woff');
 }
 @font-face {
-  font-family: 'Sue Ellen Francisco';
+  font-family: 'Dancing Script';
   font-style: normal;
-  font-weight: 400;
-  src: local('Sue Ellen Francisco '), local('SueEllenFrancisco'), url(http://themes.googleusercontent.com/static/fonts/sueellenfrancisco/v4/TwHX4vSxMUnJUdEz1JIgrrtXaZAN_aGv07JTA91X2HI.woff) format('woff');
+  font-weight: 700;
+  src: local('Dancing Script Bold'), local('DancingScript-Bold'), url(http://themes.googleusercontent.com/static/fonts/dancingscript/v3/KGBfwabt0ZRLA5W1ywjowfVc48Rxw3pIW-IHeDZiIVI.woff) format('woff');
 }
 
 
@@ -37,7 +37,7 @@ And further adapted to make responsive by Arnav Gupta <dev@championswimmer.in>
 body {
 	margin: 0;
 	padding: 0;
-	background: #690000 url(images/img05.jpg) repeat;
+	background: #003569 url(images/img05.jpg) repeat;
 	font-family: 'Neucha', sans-serif;
 	font-size: 16px;
 	color: black;
@@ -105,6 +105,7 @@ a:hover {
 	letter-spacing: -6px;
 	font-family: 'Dancing Script', cursive;
 	font-size: 100px;
+	font-weight: 700;
 }
 
 #logo p {
